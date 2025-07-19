@@ -2,7 +2,7 @@
 
 A Streamlit-powered application that lets you **ask questions** about the content of a YouTube video and get contextual answers, powered by Retrieval Augmented Generation (**RAG**) and embeddings.
 
-![Demo](https://github.com/Kkoderr/q-a_bot/assets/demo.gif) 
+![Demo](https://github.com/Kkoderr/q-a_bot/assets/img_2.png) 
 
 ---
 
