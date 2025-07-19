@@ -60,27 +60,30 @@ A Streamlit-powered application that lets you **ask questions** about the conten
 
 └── README.md
 
-🔑 API keys
-If using external LLMs (e.g., Google Gemini, Cohere), create a .env file:
-  COHERE_API_KEY=...
-  GOOGLE_API_KEY=...
-And load them in your code using:
-  from dotenv import load_dotenv
-  load_dotenv()
+🔑 API keys -
+
+[If using external LLMs (e.g., Google Gemini, Cohere), create a .env file]
+  
+- And load them in your code using:
+    from dotenv import load_dotenv
+    load_dotenv()
 
 🧠 Built with
+
 - Streamlit – web UI
 - YouTube Transcript API – extract transcripts
 - LangChain – RAG pipeline
 - Free embedding models from Hugging Face
 
 📍 To do / ideas
+
  - Add multi-language support
  - Improve chunking with semantic splitting
  - Cache transcripts & embeddings
  - Deploy on Hugging Face Spaces or Streamlit Community Cloud
 
 🤝 Contributing
+
 PRs, issues and suggestions are very welcome!
 Please open an issue first to discuss what you’d like to change.
 
