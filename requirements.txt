@@ -9,3 +9,5 @@ langchain-core
 langchain-huggingface
 langchain-google-genai
 streamlit
+sentence-transformers
+pydantic
