@@ -1,6 +1,3 @@
-Absolutely! Here’s your **complete, polished README.md** in **one block** — ready to copy–paste directly into your repo:
-
-````markdown
 # 🤖 Q&A Bot for YouTube Videos 🎥
 
 A Streamlit-powered application that lets you **ask questions** about the content of a YouTube video and get contextual answers, powered by Retrieval Augmented Generation (**RAG**) and embeddings.
@@ -141,4 +138,3 @@ If you'd also like, I can:
 ✅ Write a `requirements.txt` template  
 
 Just say **"yes, add that!"** 🚀
-```
