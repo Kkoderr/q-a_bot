@@ -1,4 +1,4 @@
-🤖 Q&A Bot for YouTube Videos 🎥
+#🤖 Q&A Bot for YouTube Videos 🎥
 
 A Streamlit-powered application that lets you **ask questions** about the content of a YouTube video and get contextual answers, powered by Retrieval Augmented Generation (**RAG**) and embeddings.
 
@@ -6,7 +6,7 @@ A Streamlit-powered application that lets you **ask questions** about the conten
 
 ---
 
-✨ Features
+##✨ Features
 - 📜 **Automatic transcript extraction** from YouTube videos  
 - 🧩 **Chunking & embeddings** to index video transcripts efficiently  
 - 🧠 **RAG pipeline**: retrieves relevant transcript parts and generates answers  
@@ -15,7 +15,7 @@ A Streamlit-powered application that lets you **ask questions** about the conten
 
 ---
 
-⚙️ How it works
+##⚙️ How it works
 1. Enter a **YouTube video ID** or URL.
 2. The app extracts the transcript (auto-generated or manual).
 3. Transcript is split into chunks and embedded.
@@ -24,31 +24,31 @@ A Streamlit-powered application that lets you **ask questions** about the conten
 
 ---
 
-🚀 Quick start
+##🚀 Quick start
 
-1️⃣ Clone the repo -
+###1️⃣ Clone the repo -
   bash:
   git clone https://github.com/Kkoderr/q-a_bot.git
   cd q-a_bot
   
-2️⃣ Create & activate virtual environment -
+###2️⃣ Create & activate virtual environment -
   bash:
   python -m venv .venv
-  source .venv/bin/activate  # macOS/Linux
-  # OR
-  .venv\Scripts\activate     # Windows
+  source .venv/bin/activate  [macOS/Linux]
+  OR
+  .venv\Scripts\activate     [Windows]
   
-3️⃣ Install dependencies -
+###3️⃣ Install dependencies -
   bash:
   pip install -r requirements.txt
 
-4️⃣ Run the Streamlit app -
+###4️⃣ Run the Streamlit app -
   bash:
   streamlit run app.py
   
   Then open http://localhost:8501 in your browser.
 
-📦 Project structure
+##📦 Project structure
 
 ├── app.py               # Streamlit front-end
 
@@ -60,7 +60,7 @@ A Streamlit-powered application that lets you **ask questions** about the conten
 
 └── README.md
 
-🔑 API keys -
+##🔑 API keys -
 
 [If using external LLMs (e.g., Google Gemini, Cohere), create a .env file]
   
@@ -68,21 +68,21 @@ A Streamlit-powered application that lets you **ask questions** about the conten
     from dotenv import load_dotenv
     load_dotenv()
 
-🧠 Built with
+##🧠 Built with
 
 - Streamlit – web UI
 - YouTube Transcript API – extract transcripts
 - LangChain – RAG pipeline
 - Free embedding models from Hugging Face
 
-📍 To do / ideas
+##📍 To do / ideas
 
  - Add multi-language support
  - Improve chunking with semantic splitting
  - Cache transcripts & embeddings
  - Deploy on Hugging Face Spaces or Streamlit Community Cloud
 
-🤝 Contributing
+##🤝 Contributing
 
 PRs, issues and suggestions are very welcome!
 Please open an issue first to discuss what you’d like to change.
