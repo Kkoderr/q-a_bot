@@ -51,9 +51,13 @@ A Streamlit-powered application that lets you **ask questions** about the conten
 📦 Project structure
 
 ├── app.py               # Streamlit front-end
+
 ├── ragSys.py            # RAG logic (embedding, retrieval)
+
 ├── bot.py               # Handles LLM call & prompt
+
 ├── requirements.txt
+
 └── README.md
 
 🔑 API keys
