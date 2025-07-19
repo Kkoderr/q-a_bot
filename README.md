@@ -1,12 +1,15 @@
-#🤖 Q&A Bot for YouTube Videos 🎥
+Absolutely! Here’s your **complete, polished README.md** in **one block** — ready to copy–paste directly into your repo:
+
+````markdown
+# 🤖 Q&A Bot for YouTube Videos 🎥
 
 A Streamlit-powered application that lets you **ask questions** about the content of a YouTube video and get contextual answers, powered by Retrieval Augmented Generation (**RAG**) and embeddings.
 
-![Demo](https://github.com/Kkoderr/q-a_bot/assets/merged.gif) 
+![Demo](https://github.com/Kkoderr/q-a_bot/assets/merged.gif)
 
 ---
 
-##✨ Features
+## ✨ Features
 - 📜 **Automatic transcript extraction** from YouTube videos  
 - 🧩 **Chunking & embeddings** to index video transcripts efficiently  
 - 🧠 **RAG pipeline**: retrieves relevant transcript parts and generates answers  
@@ -15,7 +18,7 @@ A Streamlit-powered application that lets you **ask questions** about the conten
 
 ---
 
-##⚙️ How it works
+## ⚙️ How it works
 1. Enter a **YouTube video ID** or URL.
 2. The app extracts the transcript (auto-generated or manual).
 3. Transcript is split into chunks and embedded.
@@ -24,72 +27,118 @@ A Streamlit-powered application that lets you **ask questions** about the conten
 
 ---
 
-##🚀 Quick start
+## 🚀 Quick start
 
-###1️⃣ Clone the repo -
-  bash:
-  git clone https://github.com/Kkoderr/q-a_bot.git
-  cd q-a_bot
-  
-###2️⃣ Create & activate virtual environment -
-  bash:
-  python -m venv .venv
-  source .venv/bin/activate  [macOS/Linux]
-  OR
-  .venv\Scripts\activate     [Windows]
-  
-###3️⃣ Install dependencies -
-  bash:
-  pip install -r requirements.txt
+### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/Kkoderr/q-a_bot.git
+cd q-a_bot
+````
 
-###4️⃣ Run the Streamlit app -
-  bash:
-  streamlit run app.py
-  
-  Then open http://localhost:8501 in your browser.
+### 2️⃣ Create & activate virtual environment
 
-##📦 Project structure
+```bash
+# macOS/Linux
+python -m venv .venv
+source .venv/bin/activate
 
-├── app.py               # Streamlit front-end
+# Windows
+python -m venv .venv
+.venv\Scripts\activate
+```
 
-├── ragSys.py            # RAG logic (embedding, retrieval)
+### 3️⃣ Install dependencies
 
-├── bot.py               # Handles LLM call & prompt
+```bash
+pip install -r requirements.txt
+```
 
+### 4️⃣ Run the Streamlit app
+
+```bash
+streamlit run app.py
+```
+
+Then open [http://localhost:8501](http://localhost:8501) in your browser.
+
+---
+
+## 📦 Project structure
+
+```
+├── app.py            # Streamlit front-end
+├── ragSys.py         # RAG logic (embedding, retrieval)
+├── bot.py            # Handles LLM call & prompt
 ├── requirements.txt
-
 └── README.md
+```
 
-##🔑 API keys -
+---
 
-[If using external LLMs (e.g., Google Gemini, Cohere), create a .env file]
-  
-- And load them in your code using:
-    from dotenv import load_dotenv
-    load_dotenv()
+## 🔑 API keys
 
-##🧠 Built with
+If using external LLMs (e.g., Google Gemini, Cohere):
 
-- Streamlit – web UI
-- YouTube Transcript API – extract transcripts
-- LangChain – RAG pipeline
-- Free embedding models from Hugging Face
+1. Create a `.env` file in the project root:
 
-##📍 To do / ideas
+```
+COHERE_API_KEY=your_key_here
+GOOGLE_API_KEY=your_key_here
+```
 
- - Add multi-language support
- - Improve chunking with semantic splitting
- - Cache transcripts & embeddings
- - Deploy on Hugging Face Spaces or Streamlit Community Cloud
+2. Load them in your code:
 
-##🤝 Contributing
+```python
+from dotenv import load_dotenv
+load_dotenv()
+```
+
+> ✅ Tip: don’t commit your `.env` file to version control.
+
+---
+
+## 🧠 Built with
+
+* [Streamlit](https://streamlit.io/) – web UI
+* [YouTube Transcript API](https://github.com/jdepoix/youtube-transcript-api) – extract transcripts
+* [LangChain](https://python.langchain.com/) – RAG pipeline
+* Free embedding models from Hugging Face
+
+---
+
+## 📍 To do / ideas
+
+* [ ] Add multi-language support
+* [ ] Improve chunking with semantic splitting
+* [ ] Cache transcripts & embeddings
+* [ ] Deploy on Hugging Face Spaces or Streamlit Community Cloud
+
+---
+
+## 🤝 Contributing
 
 PRs, issues and suggestions are very welcome!
 Please open an issue first to discuss what you’d like to change.
 
-📄 License
-This project is open source under the MIT License.
+---
 
-⭐️ Show your support
+## 📄 License
+
+This project is open source under the **MIT License**.
+
+---
+
+## ⭐️ Show your support
+
 If you find this useful, please ⭐️ the repo!
 Happy hacking! ✨
+
+```
+
+If you'd also like, I can:
+✅ Add dynamic shields.io badges  
+✅ Draft a `CONTRIBUTING.md`  
+✅ Write a `requirements.txt` template  
+
+Just say **"yes, add that!"** 🚀
+```
