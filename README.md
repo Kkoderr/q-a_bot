@@ -2,7 +2,7 @@
 
 A Streamlit-powered application that lets you **ask questions** about the content of a YouTube video and get contextual answers, powered by Retrieval Augmented Generation (**RAG**) and embeddings.
 
-![Demo](https://github.com/Kkoderr/q-a_bot/assets/merged.gif)
+![Demo](assets/merged.gif) 
 
 ---
 
@@ -128,13 +128,3 @@ This project is open source under the **MIT License**.
 ## ⭐️ Show your support
 
 If you find this useful, please ⭐️ the repo!
-Happy hacking! ✨
-
-```
-
-If you'd also like, I can:
-✅ Add dynamic shields.io badges  
-✅ Draft a `CONTRIBUTING.md`  
-✅ Write a `requirements.txt` template  
-
-Just say **"yes, add that!"** 🚀
